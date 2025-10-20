@@ -1,0 +1,52 @@
+﻿<Window x:Class="WordTrain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Style="{StaticResource VS2012WindowStyle}"
+        xmlns:lw="clr-namespace:WordTrain"
+        Title="Изучение слов ver. 4.0.1"
+        Height="600" Width="1230" 
+        FontSize="16"
+        WindowStartupLocation="CenterScreen" Icon="Icons/WT.png" Closed="Window_Closed" Closing="Window_Closing">
+   
+    <Grid>
+        <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="True" Margin="0">
+            <TabControl x:Name="tabControl" SelectionChanged="TabControl_SelectionChanged">
+                <TabItem x:Name="TabLearn">
+                    <TabItem.Header>
+                        <TextBlock Text="Изучение слов" FontWeight="Bold"/>
+                    </TabItem.Header>
+                    <lw:CtrlLearnWord x:Name="UCLearnWord"/>
+                </TabItem>
+                <TabItem x:Name="TabManage" >
+                    <TabItem.Header>
+                        <TextBlock Text="Управление словами" FontWeight="Bold"/>
+                    </TabItem.Header>
+                    <lw:CtrlManageWord x:Name="UCManageWord" />
+                </TabItem>
+                <TabItem x:Name="TabException" >
+                    <TabItem.Header>
+                        <TextBlock Text="Исключения" FontWeight="Bold"/>
+                    </TabItem.Header>
+                    <lw:CtrlExceptionWords x:Name="UCExceptionWords" />
+                </TabItem>
+                <TabItem >
+                    <TabItem.Header>
+                        <TextBlock Text="Анализ текстов" FontWeight="Bold"/>
+                    </TabItem.Header>
+                    <DockPanel>
+                        
+                        <StatusBar DockPanel.Dock="Bottom" Height="40">
+                            <StatusBarItem Width="Auto">
+                                <lw:WTProgressBar x:Name="progressBar" />
+                            </StatusBarItem>
+                        </StatusBar>
+                        <lw:CtrlTextAnalis x:Name="UCTextAnalis" />
+                    </DockPanel>
+                </TabItem>
+            </TabControl>
+
+
+        </DockPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿WordTrain 3.0
+
+
+winexe
+C#
+.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\
+WordTrain
+none
+false
+DEBUG;TRACE
+I:\eng\WordTrain_source\WPF\App.xaml
+8-261692913
+
+20-1908018624
+12-114506869
+Controls\CtrlExceptionWords.xaml;Controls\CtrlManageWord.xaml;Controls\CtrlTextAnalis.xaml;Controls\GridMenu.xaml;Controls\WTProgressBar.xaml;MainWindow.xaml;Controls\CtrlLearnWord.xaml;Resource.xaml;
+
+False
+

@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="WordTrain.CtrlTextAnalis"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="900" FontSize="16">
+    <Grid>
+        <DockPanel LastChildFill="True">
+
+            <Grid DockPanel.Dock="Bottom" Margin="5" ShowGridLines="False" Width="402" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="Тема" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="0" Grid.Row="1" Text="Всего слов" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+                <TextBlock Grid.Column="0" Grid.Row="2" Text="Изучаемых слов" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+                <TextBlock Grid.Column="0" Grid.Row="3" Text="Слов-исключений" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+                <TextBlock Grid.Column="0" Grid.Row="4" Text="Новых слов" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+
+                <GridSplitter Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Stretch"  Height="1" VerticalAlignment="Bottom" Background="Black" />
+                <GridSplitter Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch"  Height="1" VerticalAlignment="Bottom" Background="Black" />
+                <GridSplitter Grid.Row="2" Grid.ColumnSpan="3" HorizontalAlignment="Stretch"  Height="1" VerticalAlignment="Bottom" Background="Black" />
+                <GridSplitter Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Stretch"  Height="1" VerticalAlignment="Bottom" Background="Black" />
+
+                <TextBox x:Name="tbTheme" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Text="Тема" HorizontalAlignment="Stretch" Margin="0,0,0,2"/>
+                <TextBlock x:Name="tbTotalWordsCount" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+                <TextBlock x:Name="tbLearningWordsCount" Grid.Column="1" Grid.Row="2" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+                <TextBlock x:Name="tbExceptionalWordsCount" Grid.Column="1" Grid.Row="3" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+                <TextBlock x:Name="tbNewWordsCount" Grid.Column="1" Grid.Row="4" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+
+                <TextBlock x:Name="tbLearningWordsPercent" Grid.Column="2" Grid.Row="2" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+                <TextBlock x:Name="tbExceptionalWordsPercent" Grid.Column="2" Grid.Row="3" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+                <TextBlock x:Name="tbNewWordsPercent" Grid.Column="2" Grid.Row="4" Text="-" HorizontalAlignment="Center" Margin="10,0,10,0"/>
+
+
+
+            </Grid>
+            <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    
+                </StackPanel>
+            </StackPanel>
+            <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" x:Name="SelectFile" Click="SelectFile_Click" Content="Выбрать файл" Margin="5,0,5,0"  Height="30"/>
+
+            <DataGrid x:Name="dgTextAnalisWords" Grid.Column="0" Margin="5"
+                  CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Auto"
+                  CanUserReorderColumns="False" CanUserResizeColumns="True" SelectionMode="Extended" >
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="ContextMenuMoveToLearn" FontWeight="Bold" Header="Добавить в изучаемые"  Icon="{DynamicResource Replace2}" Click="ContextMenuMoveToLearn_Click" Tag="1"/>
+                        <MenuItem x:Name="ContextMenuMoveToExcept" FontWeight="Bold" Header="Добавить в исключения"  Icon="{DynamicResource Replace1}" Click="ContextMenuMoveToLearn_Click" Tag="2"/>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Width="70" Binding="{Binding ID}" />
+                    <DataGridTextColumn Header="English" Width="250" Binding="{Binding word}"/>
+                    <DataGridTextColumn Header="Count" Width="60" Binding="{Binding count}"/>
+                    <DataGridTextColumn Header="WordType" Width="120" Binding="{Binding TypeOfWord}"/>
+                    <DataGridTextColumn Header="SimilarKoef" Width="90" Binding="{Binding SimilarKoef}"/>
+                    <DataGridTextColumn Header="SimilarInLearn" Width="500" Binding="{Binding SimilarToTrain}"/>
+
+                </DataGrid.Columns>
+                
+            </DataGrid>
+        </DockPanel>
+    </Grid>
+</UserControl>

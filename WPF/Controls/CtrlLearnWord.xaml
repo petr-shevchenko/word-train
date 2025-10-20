@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="WordTrain.CtrlLearnWord"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="800" FontSize="16">
+    <Grid KeyDown="Grid_KeyDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="350"/>
+            <ColumnDefinition Width="420" />
+        </Grid.ColumnDefinitions>
+        <GridSplitter Grid.Column="0" Width="5" >
+            <GridSplitter.Background>
+                <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                    <GradientStop Color="#FFECAD27" Offset="1"/>
+                    <GradientStop Color="#FF897A59"/>
+                </LinearGradientBrush>
+            </GridSplitter.Background>
+        </GridSplitter>
+        <DataGrid x:Name="dgThemeList" Grid.Column="0" Margin="2,2,7,2"
+                  CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Auto"
+                  CanUserReorderColumns="False" CanUserResizeColumns="True" SelectionMode="Single"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Width="40" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Тема" Width="130" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Выучить" Width="80" Binding="{Binding ToLearn}"/>
+                <DataGridTextColumn Header="Всего" Width="80" Binding="{Binding Total}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+        <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Stretch" Margin="2,10,2,2">
+            <StackPanel Orientation="Horizontal" >
+                <Label Content="Режим:" Margin="15,0,5,0" VerticalAlignment="Center"/>
+                <RadioButton x:Name="rbLearning" Content="Изучение" Margin="5,0,5,0" VerticalAlignment="Center" IsChecked="True" />
+                <RadioButton x:Name="rbLearning2" Content="Изучение 2" Margin="5,0,5,0" VerticalAlignment="Center" IsChecked="True" />
+                <RadioButton x:Name="rbChecking" Content="Проверка" Margin="5,0,5,0" VerticalAlignment="Center" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBox x:Name="tbWord" Width="315" Text="" Margin="15,5,15,5" Padding="5" FontWeight="DemiBold" IsReadOnly="True" MouseDoubleClick="tbWord_MouseDoubleClick">
+                    <TextBox.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF5E6585" Offset="1"/>
+                            <GradientStop Color="#FFA3A9C3"/>
+                        </LinearGradientBrush>
+                    </TextBox.Background>
+                </TextBox>
+                <Button x:Name="btnNext"  Content="{DynamicResource Next}" Width="40" Margin="15,5,15,5" Click="BtnNext_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBox x:Name="tbUserAnsware" Width="315" Margin="15,5,15,5" Padding="5" FontWeight="DemiBold"/>
+                <Button x:Name="btnCheck" Content="{DynamicResource Check}" Width="40" Margin="15,5,15,5" Click="BtnCheck_Click"/>
+            </StackPanel>
+            <DockPanel LastChildFill="True" >
+                <TextBlock x:Name="tbCorrectAnsware" Text="" FontWeight="DemiBold" Foreground="AliceBlue" 
+                           Margin="15,5,15,5" Padding="5" TextWrapping="Wrap" Height="Auto" LineStackingStrategy="BlockLineHeight" >
+                    <TextBlock.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF5E6585" Offset="1"/>
+                            <GradientStop Color="#FFA3A9C3"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Background>
+                    </TextBlock>
+
+            </DockPanel>
+
+        </StackPanel>
+
+
+    </Grid>
+</UserControl>

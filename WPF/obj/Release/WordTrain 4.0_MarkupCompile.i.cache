@@ -1,0 +1,20 @@
+﻿WordTrain 4.0
+
+
+winexe
+C#
+.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Release\
+WordTrain
+none
+false
+TRACE
+M:\MyPrograms\develop\WordTrain_source\WPF\App.xaml
+12-393968580
+
+24127012701
+12-114506869
+Controls\CtrlExceptionWords.xaml;Controls\CtrlManageWord.xaml;Controls\CtrlTextAnalis.xaml;Controls\GridMenu.xaml;Controls\WTProgressBar.xaml;MainWindow.xaml;Controls\CtrlLearnWord.xaml;Styles\WindowStyle\Resource.xaml;Styles\WindowStyle\Brushes.xaml;Styles\WindowStyle\ButtonStyleWith.xaml;Styles\WindowStyle\Core.xaml;Styles\WindowStyle\VS2012WindowStyle.xaml;
+
+False
+

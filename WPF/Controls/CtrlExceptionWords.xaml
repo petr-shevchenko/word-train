@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="WordTrain.CtrlExceptionWords"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" FontSize="16">
+    <Grid>
+        <DockPanel LastChildFill="True">
+
+            <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Height="50">
+                <Button x:Name="DelLine" Click="DelLine_Click" Content="{DynamicResource Del}" Margin="5" Width="40" ToolTip="Удалить выделенные слова"/>
+                <Button x:Name="Save" Click="Save_Click" Content="{DynamicResource Save}" Margin="5" Width="40" ToolTip="Сохранить слова в файл" />
+
+            </StackPanel>
+            <DataGrid x:Name="dgExceptionalWords" Margin="5" IsReadOnly="False"
+                  CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Auto"
+                  CanUserReorderColumns="False" CanUserResizeColumns="True" SelectionMode="Extended" >
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="ContextMenuMoveToLearn" FontWeight="Bold" Header="Переместить в изучаемые"  Icon="{DynamicResource Replace2}" Click="ContextMenuMoveToLearn_Click"/>
+                        <MenuItem Header="Удалить" Click="DelLine_Click" FontWeight="Bold" Icon="{DynamicResource Del}"/>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Width="70" Binding="{Binding ID}" />
+                    <DataGridTextColumn Header="English" Width="150" Binding="{Binding Eng}"/>
+                    <DataGridTextColumn Header="Russian" Width="500" Binding="{Binding Rus}"/>
+                    <DataGridTextColumn Header="Theme" Width="150" Binding="{Binding Theme}"/>
+                    <DataGridTextColumn Header="Repeat" Width="60" Binding="{Binding Repeat}"/>
+                    <DataGridTextColumn Header="Errors" Width="60" Binding="{Binding Errors}"/>
+                    <DataGridTextColumn Header="Count" Width="60" Binding="{Binding Count}"/>
+                    <DataGridTextColumn Header="№№" Width="60" Binding="{Binding N}"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+        </DockPanel>
+            
+    </Grid>
+</UserControl>

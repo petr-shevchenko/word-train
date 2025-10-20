@@ -1,0 +1,128 @@
+I:\eng\WordTrain_source\WPF\obj\Debug\MainWindow.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\MainWindow.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\App.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csproj.GenerateResource.Cache
+I:\eng\WordTrain_source\WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\WordTrain.Properties.Resources.resources
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\Resource.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\App.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.baml
+I:\eng\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.g.cs
+I:\eng\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csprojResolveAssemblyReference.cache
+L:\eng\WordTrain_source\WPF\bin\Debug\WordTrain 3.1.exe.config
+L:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.1.exe
+L:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.1.pdb
+L:\eng\WordTrain_source\WPF\bin\Debug\WordTrain 3.1.exe
+L:\eng\WordTrain_source\WPF\bin\Debug\WordTrain 3.1.pdb
+L:\eng\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csprojResolveAssemblyReference.cache
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Resource.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\App.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\MainWindow.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\App.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+L:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.1_MarkupCompile.cache
+L:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.1_MarkupCompile.lref
+L:\eng\WordTrain_source\WPF\obj\Debug\MainWindow.baml
+L:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.1.g.resources
+L:\eng\WordTrain_source\WPF\obj\Debug\WordTrain.Properties.Resources.resources
+L:\eng\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csproj.GenerateResource.Cache
+I:\eng\WordTrain_source\WPF\bin\Debug\WordTrain 3.5.exe.config
+I:\eng\WordTrain_source\WPF\bin\Debug\WordTrain 3.5.exe
+I:\eng\WordTrain_source\WPF\bin\Debug\WordTrain 3.5.pdb
+I:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.5_MarkupCompile.cache
+I:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.5_MarkupCompile.lref
+I:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.5.g.resources
+I:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.5.exe
+I:\eng\WordTrain_source\WPF\obj\Debug\WordTrain 3.5.pdb
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csprojResolveAssemblyReference.cache
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\App.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\MainWindow.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\App.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\MainWindow.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WordTrain.Properties.Resources.resources
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csproj.GenerateResource.Cache
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\Brushes.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\Core.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\VS2012WindowStyle.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\ButtonStyleWith.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\VS2012WindowStyle.g.cs
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\ButtonStyleWith.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\Resource.baml
+M:\MyPrograms\develop\WordTrain_source\WPF\bin\Debug\WordTrain 4.0.1.exe.config
+M:\MyPrograms\develop\WordTrain_source\WPF\bin\Debug\WordTrain 4.0.1.exe
+M:\MyPrograms\develop\WordTrain_source\WPF\bin\Debug\WordTrain 4.0.1.pdb
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1_MarkupCompile.cache
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1_MarkupCompile.lref
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1.g.resources
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1.exe
+M:\MyPrograms\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1.pdb
+E:\my_programs\develop\WordTrain_source\WPF\bin\Debug\WordTrain 4.0.1.exe.config
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1.exe
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1.pdb
+E:\my_programs\develop\WordTrain_source\WPF\bin\Debug\WordTrain 4.0.1.exe
+E:\my_programs\develop\WordTrain_source\WPF\bin\Debug\WordTrain 4.0.1.pdb
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csprojResolveAssemblyReference.cache
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\Resource.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\Brushes.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\Core.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\VS2012WindowStyle.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\App.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlExceptionWords.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlManageWord.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlTextAnalis.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\GridMenu.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\WTProgressBar.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\MainWindow.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Controls\CtrlLearnWord.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\ButtonStyleWith.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\VS2012WindowStyle.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\App.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1_MarkupCompile.cache
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1_MarkupCompile.lref
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\MainWindow.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\Styles\WindowStyle\ButtonStyleWith.baml
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WordTrain 4.0.1.g.resources
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WordTrain.Properties.Resources.resources
+E:\my_programs\develop\WordTrain_source\WPF\obj\Debug\WpfWordTrain.csproj.GenerateResource.Cache

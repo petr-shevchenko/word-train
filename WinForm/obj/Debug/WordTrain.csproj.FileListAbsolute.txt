@@ -1,0 +1,49 @@
+I:\eng\WordTrain\obj\Debug\WordTrain.csprojResolveAssemblyReference.cache
+I:\eng\WordTrain\obj\Debug\WordTrain.MainForm.resources
+I:\eng\WordTrain\obj\Debug\WordTrain.Properties.Resources.resources
+I:\eng\WordTrain\obj\Debug\WordTrain.csproj.GenerateResource.Cache
+I:\eng\WordTrain\bin\Debug\WordTrain.exe.config
+I:\eng\WordTrain\bin\Debug\WordTrain.exe
+I:\eng\WordTrain\bin\Debug\WordTrain.pdb
+I:\eng\WordTrain\obj\Debug\WordTrain.exe
+I:\eng\WordTrain\obj\Debug\WordTrain.pdb
+I:\eng\WordTrain_source\obj\Debug\WordTrain.MainForm.resources
+I:\eng\WordTrain_source\obj\Debug\WordTrain.Properties.Resources.resources
+I:\eng\WordTrain_source\obj\Debug\WordTrain.csproj.GenerateResource.Cache
+I:\eng\WordTrain_source\obj\Debug\WordTrain.FmWait.resources
+I:\eng\WordTrain_source\obj\Debug\WordTrain.csprojResolveAssemblyReference.cache
+I:\eng\WordTrain_source\bin\Debug\WordTrain 2.3.exe.config
+I:\eng\WordTrain_source\bin\Debug\WordTrain 2.3.exe
+I:\eng\WordTrain_source\bin\Debug\WordTrain 2.3.pdb
+I:\eng\WordTrain_source\obj\Debug\WordTrain 2.3.exe
+I:\eng\WordTrain_source\obj\Debug\WordTrain 2.3.pdb
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\bin\Debug\WordTrain 2.3.exe.config
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain 2.3.exe
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain 2.3.pdb
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\bin\Debug\WordTrain 2.3.exe
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\bin\Debug\WordTrain 2.3.pdb
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain.csprojResolveAssemblyReference.cache
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain.FmWait.resources
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain.MainForm.resources
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain.Properties.Resources.resources
+D:\Shevchenko\backupflash_20151119\eng\WordTrain_source\obj\Debug\WordTrain.csproj.GenerateResource.Cache
+I:\eng\WordTrain_source\WinForm\bin\Debug\WordTrain 2.3.exe.config
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain 2.3.exe
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain 2.3.pdb
+I:\eng\WordTrain_source\WinForm\bin\Debug\WordTrain 2.3.exe
+I:\eng\WordTrain_source\WinForm\bin\Debug\WordTrain 2.3.pdb
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.FmWait.resources
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.MainForm.resources
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.Properties.Resources.resources
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.csproj.GenerateResource.Cache
+I:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.csprojResolveAssemblyReference.cache
+L:\eng\WordTrain_source\WinForm\bin\Debug\WordTrain 2.3.exe.config
+L:\eng\WordTrain_source\WinForm\bin\Debug\WordTrain 2.3.exe
+L:\eng\WordTrain_source\WinForm\bin\Debug\WordTrain 2.3.pdb
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.csprojResolveAssemblyReference.cache
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.FmWait.resources
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.MainForm.resources
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.Properties.Resources.resources
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain.csproj.GenerateResource.Cache
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain 2.3.exe
+L:\eng\WordTrain_source\WinForm\obj\Debug\WordTrain 2.3.pdb

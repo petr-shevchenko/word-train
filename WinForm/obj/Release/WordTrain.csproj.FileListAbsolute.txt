@@ -1,0 +1,9 @@
+M:\MyPrograms\develop\WordTrain_source\WinForm\bin\Release\WordTrain 2.3.exe.config
+M:\MyPrograms\develop\WordTrain_source\WinForm\bin\Release\WordTrain 2.3.exe
+M:\MyPrograms\develop\WordTrain_source\WinForm\bin\Release\WordTrain 2.3.pdb
+M:\MyPrograms\develop\WordTrain_source\WinForm\obj\Release\WordTrain.FmWait.resources
+M:\MyPrograms\develop\WordTrain_source\WinForm\obj\Release\WordTrain.MainForm.resources
+M:\MyPrograms\develop\WordTrain_source\WinForm\obj\Release\WordTrain.Properties.Resources.resources
+M:\MyPrograms\develop\WordTrain_source\WinForm\obj\Release\WordTrain.csproj.GenerateResource.Cache
+M:\MyPrograms\develop\WordTrain_source\WinForm\obj\Release\WordTrain 2.3.exe
+M:\MyPrograms\develop\WordTrain_source\WinForm\obj\Release\WordTrain 2.3.pdb
